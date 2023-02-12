@@ -1,0 +1,65 @@
+.sectionClass {
+    display:inline;
+    justify-content: space-between;
+    
+    
+
+}
+ul, ul li {
+    display: block;
+    list-style: none;
+    padding: 20;
+    
+
+}
+
+ul li {
+    float: left;
+
+}
+ul a:link, ul a:visited {
+    text-decoration:none;
+    display: block;
+    width: 80px;
+    text-align: center;
+    background-color: aquamarine;
+    color: #000;
+    border: aquamarine;
+    padding: 10px;
+}
+
+    ul a:hover {
+        background-color: blueviolet;
+        color: #fff;
+       
+
+    }
+
+    #kontener{
+width: 960px;
+margin: 0 auto;
+}
+
+#naglowek{
+
+height: 50px;
+
+}
+
+.kolumna{
+float: left;
+margin: 10px;
+width: 296px;
+height: 450px;
+border: 2px solid black;
+}
+
+#clear{
+clear: both;
+}
+
+#przyciski {
+    border-bottom: solid black;
+    border-top: solid black;
+height: 70px;
+}
